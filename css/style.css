@@ -13,19 +13,74 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 /* Header  */
-header{
+header {
     max-width: 800px;
     margin: 30px auto;
     text-align: center;
-} 
-h1{
+}
+
+h1 {
     font-family: 'Josefin Sans', sans-serif;
-    color:deeppink;
+    color: deeppink;
     margin: 0 auto;
 
- }
- .lorem {
+}
+
+.lorem {
     margin-top: 40px;
     font-family: 'Josefin Sans', sans-serif;
- }
- 
+}
+
+/* Main  */
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+
+}
+
+
+.box{
+  border: 2px solid #0f0e17;
+  max-width: 700px;
+  max-height: 550px;              
+  float: left;
+  margin: 10px;
+  background-color: #0f0e17;
+}
+.box-img{
+    float: left;
+    width: 50%;
+    margin-right: 10px;
+
+}
+.box-contenuto{
+    
+    max-width: 100px;
+    max-height: 70px;
+    padding: 0 5px;
+    display: inline-block;
+}
+.img{
+    width: 100%;
+    display: block;
+    float: left;
+
+}
+h3, .paragrafo {
+    color: white;
+    margin: 10px;
+    font-size: 80%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.email{
+    color: turquoise;
+}
