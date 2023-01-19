@@ -12,3 +12,20 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 
+/* Header  */
+header{
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: center;
+} 
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color:deeppink;
+    margin: 0 auto;
+
+ }
+ .lorem {
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+ 
